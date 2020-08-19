@@ -13,11 +13,11 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/', function () {
+Route::get('/tes', function () {
     return view('welcome');
 });
 
-Route::get('/admin', function () {
+Route::get('/', function () {
     return view('admin.dashboard');
 });
 
